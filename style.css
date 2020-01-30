@@ -1,0 +1,44 @@
+
+tr{
+    display: flex;
+    width: 100%;
+    min-height: 50%;
+}
+td{
+    height: 80px;
+    width: 80px;
+    margin: auto;
+}
+.ion{
+    text-align: center;
+    width: 75px;
+    height: 75px;
+    word-wrap: break-word;
+}
+
+.nomIon{
+    font-size: 0.5em;
+}
+.symboleIon{
+    font-size: large;
+}
+
+.numeroIon{
+    font-size: 0.1em;
+    font-style: unset;
+}
+.valeurIon
+{
+    font-size: 0.4em;
+    text-align: justify;
+}
+
+.sautDeLine{
+    height: 50px;
+}
+
+.tableau{
+    display: flex;
+    justify-content: space-around;
+    
+}
