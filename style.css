@@ -49,12 +49,11 @@ td{
     
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 750px) {
     table,
     tr,
     td {
       display: block;
       width: auto!important;
-      /* parceque tu as mis des style inline grrr */
     }
   }
