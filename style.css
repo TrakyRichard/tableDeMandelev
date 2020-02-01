@@ -49,10 +49,12 @@ td{
     
 }
 
-@media all and (max-width:770px){
-    td{
-        height: 85px;
-        width: 5%;
-        margin: auto;
+@media screen and (max-width: 640px) {
+    table,
+    tr,
+    td {
+      display: block;
+      width: auto!important;
+      /* parceque tu as mis des style inline grrr */
     }
-}
+  }
